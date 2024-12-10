@@ -11,6 +11,11 @@ body {
     line-height: 1.6;
 }
 
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
 p {
     font-size: 20px;
     text-align: justify;
@@ -22,11 +27,6 @@ p {
     border: 1px solid #ddd;
     background-color: #f9f9f9;
     border-radius: 8px;
-}
-
-h1{
-    font-size: 30px;
-    text-align: center;
 }
 
 a{
@@ -71,4 +71,38 @@ footer {
 #footer{
     text-align: center;
     font-size: 15px;
+}
+
+
+/*---------------Responsive---------------*/
+
+
+@media (max-width: 480px) {
+
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .section {
+        padding: 20px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    img {
+        height: 30px;
+    }
+
+    table {
+        font-size: 15px;
+    }
+    
+    th{
+        font-size: 15px;
+    }
 }
