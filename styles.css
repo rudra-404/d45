@@ -1,0 +1,74 @@
+/* General Reset */
+body, ul, li, table {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-collapse: collapse;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.section {
+    padding: 40px;
+    margin: 40px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 76, 255);
+}
+
+img {
+    height: 40px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+th{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    background-color: #ececec;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #f3f6f4;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+#footer{
+    text-align: center;
+    font-size: 15px;
+}
